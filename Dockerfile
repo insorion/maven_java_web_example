@@ -1,6 +1,6 @@
 FROM tomcat:8.0
 
-COPY target/api-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
+COPY ./target/api-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
 
 #CMD java -cp /usr/src/helloworld-1.0-SNAPSHOT.war
 CMD ["/bin/bash"]
