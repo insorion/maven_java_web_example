@@ -7,7 +7,7 @@ CMD ["/bin/bash"]
 
 # USER root
 
-# :wEXPOSE 80
+# EXPOSE 80
 
 
 
