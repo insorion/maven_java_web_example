@@ -3,7 +3,7 @@
 .project
 .settings/
 .idea/
-target/
+#target/
 *.iml
 ui_test/*.html
 ui_test/*.xml
